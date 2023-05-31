@@ -1,13 +1,12 @@
-module module-one/one
+module github.com/joaosoft/go-modules/module-one
 
-go 1.12
+go 1.20
+
+require github.com/joaosoft/logger v0.0.0-20230531142923-753c0a3e836a
 
 require (
-	github.com/joaosoft/errors v0.0.0-20190726173753-02dc200db4a1 // indirect
-	github.com/joaosoft/logger v0.0.0-20190322182034-41e546494f5d
-	github.com/joaosoft/writers v0.0.0-20190311002941-310c8522699d // indirect
-	github.com/kr/pretty v0.1.0 // indirect
+	github.com/joaosoft/errors v0.0.0-20230531141818-ebb38600b462 // indirect
+	github.com/joaosoft/writers v0.0.0-20230531142123-83465954fcda // indirect
+	github.com/kr/text v0.2.0 // indirect
 	github.com/satori/go.uuid v1.2.0 // indirect
-	github.com/stretchr/testify v1.4.0 // indirect
-	gopkg.in/check.v1 v1.0.0-20190902080502-41f04d3bba15 // indirect
 )
